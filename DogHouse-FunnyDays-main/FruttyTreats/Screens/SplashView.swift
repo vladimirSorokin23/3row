@@ -1,6 +1,6 @@
 //
 //  SplashView.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 
@@ -36,9 +36,4 @@ struct SplashView: View {
             configLoaded = true
         }
     }
-}
-
-#Preview {
-    SplashView(configLoaded: .constant(false))
-        .environmentObject(ConfigModel.shared)
 }

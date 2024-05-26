@@ -1,11 +1,12 @@
 //
 //  ConfigKeys.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 
 import Foundation
 
-enum ConfigKeys: String {
-    case availableLink = "AVAILABLE_LINK"
+enum ConfigKeys {
+    static let availableLink = "AVAILABLE_LINK"
+    static let remoteLink = "remote_link"
 }

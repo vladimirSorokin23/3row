@@ -1,6 +1,6 @@
 //
 //  AdditionalView.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 
@@ -19,8 +19,4 @@ struct AdditionalView: View {
             .ignoresSafeArea()
             .background(Color.blue.edgesIgnoringSafeArea(.all))
     }
-}
-
-#Preview {
-    AdditionalView(link: "https://www.google.com")
 }

@@ -1,13 +1,13 @@
 //
-//  DogHousesApp.swift
-//  DogHouses
+//  FruttyTreatsApp.swift
+//  FruttyTreats
 //
 //
 
 import SwiftUI
 
 @main
-struct DogHousesApp: App {
+struct FruttyTreatsApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @State private var configLoaded: Bool = false
     

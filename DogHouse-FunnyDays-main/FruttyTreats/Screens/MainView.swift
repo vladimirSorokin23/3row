@@ -1,6 +1,6 @@
 //
 //  MainView.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 
@@ -43,8 +43,4 @@ struct MainView: View {
             }
         }
     }
-}
-
-#Preview {
-    MainView()
 }

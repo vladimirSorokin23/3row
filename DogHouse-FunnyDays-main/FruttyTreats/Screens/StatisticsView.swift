@@ -1,6 +1,6 @@
 //
 //  StatisticsView.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 

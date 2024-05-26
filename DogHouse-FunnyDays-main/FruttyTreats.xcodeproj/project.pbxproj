@@ -14,14 +14,10 @@
 		DCDE99932C03966700C11BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99732C03966700C11BAA /* AppDelegate.swift */; };
 		DCDE99942C03966700C11BAA /* AppDelegate+FCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99742C03966700C11BAA /* AppDelegate+FCM.swift */; };
 		DCDE99952C03966700C11BAA /* AppDelegate+NCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99752C03966700C11BAA /* AppDelegate+NCDelegate.swift */; };
-		DCDE99962C03966700C11BAA /* DogHousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99772C03966700C11BAA /* DogHousesApp.swift */; };
 		DCDE99972C03966700C11BAA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99792C03966700C11BAA /* Config.swift */; };
 		DCDE99982C03966700C11BAA /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE997A2C03966700C11BAA /* ConfigKeys.swift */; };
 		DCDE99992C03966700C11BAA /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE997C2C03966700C11BAA /* UserDefaultKeys.swift */; };
-		DCDE999A2C03966700C11BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */; };
 		DCDE999B2C03966700C11BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99812C03966700C11BAA /* Assets.xcassets */; };
-		DCDE999C2C03966700C11BAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99822C03966700C11BAA /* GoogleService-Info.plist */; };
-		DCDE999D2C03966700C11BAA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */; };
 		DCDE999E2C03966700C11BAA /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99852C03966700C11BAA /* Animation.swift */; };
 		DCDE999F2C03966700C11BAA /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99862C03966700C11BAA /* GameModel.swift */; };
 		DCDE99A02C03966700C11BAA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99872C03966700C11BAA /* GameView.swift */; };
@@ -31,7 +27,10 @@
 		DCDE99A42C03966700C11BAA /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998C2C03966700C11BAA /* SiteView.swift */; };
 		DCDE99A52C03966700C11BAA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998D2C03966700C11BAA /* SplashView.swift */; };
 		DCDE99A62C03966700C11BAA /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998E2C03966700C11BAA /* StatisticsView.swift */; };
-		DCDE99A72C03966700C11BAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99912C03966700C11BAA /* Info.plist */; };
+		DCDE99A82C03992600C11BAA /* DogHousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99772C03966700C11BAA /* DogHousesApp.swift */; };
+		DCDE99A92C03999500C11BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */; };
+		DCDE99AC2C039E4100C11BAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99AB2C039E4100C11BAA /* GoogleService-Info.plist */; };
+		DCDE99AE2C03AC6500C11BAA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99AD2C03AC6500C11BAA /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +44,6 @@
 		DCDE997C2C03966700C11BAA /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCDE99812C03966700C11BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCDE99822C03966700C11BAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DCDE99852C03966700C11BAA /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		DCDE99862C03966700C11BAA /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		DCDE99872C03966700C11BAA /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -56,8 +53,10 @@
 		DCDE998C2C03966700C11BAA /* SiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
 		DCDE998D2C03966700C11BAA /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		DCDE998E2C03966700C11BAA /* StatisticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
-		DCDE99902C03966700C11BAA /* DogHouses.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = DogHouses.entitlements; sourceTree = "<group>"; };
-		DCDE99912C03966700C11BAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDE99AA2C039C0D00C11BAA /* FruttyTreats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FruttyTreats.entitlements; sourceTree = "<group>"; };
+		DCDE99AB2C039E4100C11BAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCDE99AD2C03AC6500C11BAA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DCDE99AF2C03ADF900C11BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +146,9 @@
 		DCDE99842C03966700C11BAA /* Project files */ = {
 			isa = PBXGroup;
 			children = (
+				DCDE99AD2C03AC6500C11BAA /* PrivacyInfo.xcprivacy */,
+				DCDE99AB2C039E4100C11BAA /* GoogleService-Info.plist */,
 				DCDE99812C03966700C11BAA /* Assets.xcassets */,
-				DCDE99822C03966700C11BAA /* GoogleService-Info.plist */,
-				DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */,
 			);
 			path = "Project files";
 			sourceTree = "<group>";
@@ -181,13 +180,13 @@
 		DCDE99922C03966700C11BAA /* FruttyTreats */ = {
 			isa = PBXGroup;
 			children = (
+				DCDE99AF2C03ADF900C11BAA /* Info.plist */,
+				DCDE99AA2C039C0D00C11BAA /* FruttyTreats.entitlements */,
 				DCDE99782C03966700C11BAA /* App */,
 				DCDE997E2C03966700C11BAA /* Models */,
 				DCDE99802C03966700C11BAA /* Preview Content */,
 				DCDE99842C03966700C11BAA /* Project files */,
 				DCDE998F2C03966700C11BAA /* Screens */,
-				DCDE99902C03966700C11BAA /* DogHouses.entitlements */,
-				DCDE99912C03966700C11BAA /* Info.plist */,
 			);
 			path = FruttyTreats;
 			sourceTree = "<group>";
@@ -259,11 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDE99A72C03966700C11BAA /* Info.plist in Resources */,
-				DCDE999A2C03966700C11BAA /* Preview Assets.xcassets in Resources */,
+				DCDE99A92C03999500C11BAA /* Preview Assets.xcassets in Resources */,
 				DCDE999B2C03966700C11BAA /* Assets.xcassets in Resources */,
-				DCDE999D2C03966700C11BAA /* PrivacyInfo.xcprivacy in Resources */,
-				DCDE999C2C03966700C11BAA /* GoogleService-Info.plist in Resources */,
+				DCDE99AE2C03AC6500C11BAA /* PrivacyInfo.xcprivacy in Resources */,
+				DCDE99AC2C039E4100C11BAA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDE99A82C03992600C11BAA /* DogHousesApp.swift in Sources */,
 				DCDE999F2C03966700C11BAA /* GameModel.swift in Sources */,
 				DCDE99952C03966700C11BAA /* AppDelegate+NCDelegate.swift in Sources */,
 				DCDE99982C03966700C11BAA /* ConfigKeys.swift in Sources */,
@@ -282,7 +281,6 @@
 				DCDE99A52C03966700C11BAA /* SplashView.swift in Sources */,
 				DCDE999E2C03966700C11BAA /* Animation.swift in Sources */,
 				DCDE99992C03966700C11BAA /* UserDefaultKeys.swift in Sources */,
-				DCDE99962C03966700C11BAA /* DogHousesApp.swift in Sources */,
 				DCDE99A12C03966700C11BAA /* PreferenceKey.swift in Sources */,
 				DCDE99A62C03966700C11BAA /* StatisticsView.swift in Sources */,
 				DCDE99972C03966700C11BAA /* Config.swift in Sources */,
@@ -420,16 +418,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DogHouses/DogHouses.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FruttyTreats/FruttyTreats.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DogHouses/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = G3332Q8MVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DogHouses/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DogHouses;
+				INFOPLIST_FILE = FruttyTreats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FruttyTreats;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -442,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = drenroyt.BogHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = dansoy.FruttyTreats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -460,16 +458,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DogHouses/DogHouses.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FruttyTreats/FruttyTreats.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DogHouses/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = G3332Q8MVD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DogHouses/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DogHouses;
+				INFOPLIST_FILE = FruttyTreats/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FruttyTreats;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = drenroyt.BogHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = dansoy.FruttyTreats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

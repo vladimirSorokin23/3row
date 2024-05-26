@@ -1,6 +1,6 @@
 //
 //  ConfigModel.swift
-//  DogHouses
+//  FruttyTreats
 //
 //
 
@@ -31,7 +31,7 @@ final class ConfigModel: ObservableObject {
                 print("Error: \(error?.localizedDescription ?? "No error available.")")
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                self?.availableLink = self?.config?[ConfigKeys.availableLink.rawValue].stringValue ?? ""
+                self?.availableLink = self?.config?[ConfigKeys.availableLink].stringValue ?? ""
                 self?.configLoaded = true
             }
         }
