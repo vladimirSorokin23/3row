@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD8054242BE81CCF00046255 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AD8054232BE81CCF00046255 /* FirebaseAnalytics */; };
+		AD8054262BE81CCF00046255 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = AD8054252BE81CCF00046255 /* FirebaseCrashlytics */; };
+		AD8054282BE81CCF00046255 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AD8054272BE81CCF00046255 /* FirebaseMessaging */; };
+		AD80542A2BE81CCF00046255 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = AD8054292BE81CCF00046255 /* FirebaseRemoteConfig */; };
+		DCDE99932C03966700C11BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99732C03966700C11BAA /* AppDelegate.swift */; };
+		DCDE99942C03966700C11BAA /* AppDelegate+FCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99742C03966700C11BAA /* AppDelegate+FCM.swift */; };
+		DCDE99952C03966700C11BAA /* AppDelegate+NCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99752C03966700C11BAA /* AppDelegate+NCDelegate.swift */; };
+		DCDE99962C03966700C11BAA /* DogHousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99772C03966700C11BAA /* DogHousesApp.swift */; };
+		DCDE99972C03966700C11BAA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99792C03966700C11BAA /* Config.swift */; };
+		DCDE99982C03966700C11BAA /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE997A2C03966700C11BAA /* ConfigKeys.swift */; };
+		DCDE99992C03966700C11BAA /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE997C2C03966700C11BAA /* UserDefaultKeys.swift */; };
+		DCDE999A2C03966700C11BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */; };
+		DCDE999B2C03966700C11BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99812C03966700C11BAA /* Assets.xcassets */; };
+		DCDE999C2C03966700C11BAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99822C03966700C11BAA /* GoogleService-Info.plist */; };
+		DCDE999D2C03966700C11BAA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */; };
+		DCDE999E2C03966700C11BAA /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99852C03966700C11BAA /* Animation.swift */; };
+		DCDE999F2C03966700C11BAA /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99862C03966700C11BAA /* GameModel.swift */; };
+		DCDE99A02C03966700C11BAA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99872C03966700C11BAA /* GameView.swift */; };
+		DCDE99A12C03966700C11BAA /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE99882C03966700C11BAA /* PreferenceKey.swift */; };
+		DCDE99A22C03966700C11BAA /* AdditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998A2C03966700C11BAA /* AdditionalView.swift */; };
+		DCDE99A32C03966700C11BAA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998B2C03966700C11BAA /* MainView.swift */; };
+		DCDE99A42C03966700C11BAA /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998C2C03966700C11BAA /* SiteView.swift */; };
+		DCDE99A52C03966700C11BAA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998D2C03966700C11BAA /* SplashView.swift */; };
+		DCDE99A62C03966700C11BAA /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE998E2C03966700C11BAA /* StatisticsView.swift */; };
+		DCDE99A72C03966700C11BAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE99912C03966700C11BAA /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD8054112BE815A100046255 /* FruttyTreats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruttyTreats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE99732C03966700C11BAA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDE99742C03966700C11BAA /* AppDelegate+FCM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+FCM.swift"; sourceTree = "<group>"; };
+		DCDE99752C03966700C11BAA /* AppDelegate+NCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+NCDelegate.swift"; sourceTree = "<group>"; };
+		DCDE99772C03966700C11BAA /* DogHousesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogHousesApp.swift; sourceTree = "<group>"; };
+		DCDE99792C03966700C11BAA /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DCDE997A2C03966700C11BAA /* ConfigKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
+		DCDE997C2C03966700C11BAA /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCDE99812C03966700C11BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDE99822C03966700C11BAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DCDE99852C03966700C11BAA /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		DCDE99862C03966700C11BAA /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		DCDE99872C03966700C11BAA /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DCDE99882C03966700C11BAA /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		DCDE998A2C03966700C11BAA /* AdditionalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalView.swift; sourceTree = "<group>"; };
+		DCDE998B2C03966700C11BAA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DCDE998C2C03966700C11BAA /* SiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
+		DCDE998D2C03966700C11BAA /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DCDE998E2C03966700C11BAA /* StatisticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		DCDE99902C03966700C11BAA /* DogHouses.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = DogHouses.entitlements; sourceTree = "<group>"; };
+		DCDE99912C03966700C11BAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD80540E2BE815A100046255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8054282BE81CCF00046255 /* FirebaseMessaging in Frameworks */,
+				AD8054242BE81CCF00046255 /* FirebaseAnalytics in Frameworks */,
+				AD8054262BE81CCF00046255 /* FirebaseCrashlytics in Frameworks */,
+				AD80542A2BE81CCF00046255 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD8054082BE815A100046255 = {
+			isa = PBXGroup;
+			children = (
+				DCDE99922C03966700C11BAA /* FruttyTreats */,
+				AD8054122BE815A100046255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8054122BE815A100046255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8054112BE815A100046255 /* FruttyTreats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDE99762C03966700C11BAA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99732C03966700C11BAA /* AppDelegate.swift */,
+				DCDE99742C03966700C11BAA /* AppDelegate+FCM.swift */,
+				DCDE99752C03966700C11BAA /* AppDelegate+NCDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DCDE99782C03966700C11BAA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99762C03966700C11BAA /* AppDelegate */,
+				DCDE99772C03966700C11BAA /* DogHousesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCDE997B2C03966700C11BAA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99792C03966700C11BAA /* Config.swift */,
+				DCDE997A2C03966700C11BAA /* ConfigKeys.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DCDE997D2C03966700C11BAA /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE997C2C03966700C11BAA /* UserDefaultKeys.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		DCDE997E2C03966700C11BAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE997B2C03966700C11BAA /* Config */,
+				DCDE997D2C03966700C11BAA /* UserDefaults */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCDE99802C03966700C11BAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE997F2C03966700C11BAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCDE99842C03966700C11BAA /* Project files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99812C03966700C11BAA /* Assets.xcassets */,
+				DCDE99822C03966700C11BAA /* GoogleService-Info.plist */,
+				DCDE99832C03966700C11BAA /* PrivacyInfo.xcprivacy */,
+			);
+			path = "Project files";
+			sourceTree = "<group>";
+		};
+		DCDE99892C03966700C11BAA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99852C03966700C11BAA /* Animation.swift */,
+				DCDE99862C03966700C11BAA /* GameModel.swift */,
+				DCDE99872C03966700C11BAA /* GameView.swift */,
+				DCDE99882C03966700C11BAA /* PreferenceKey.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		DCDE998F2C03966700C11BAA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99892C03966700C11BAA /* Game */,
+				DCDE998A2C03966700C11BAA /* AdditionalView.swift */,
+				DCDE998B2C03966700C11BAA /* MainView.swift */,
+				DCDE998C2C03966700C11BAA /* SiteView.swift */,
+				DCDE998D2C03966700C11BAA /* SplashView.swift */,
+				DCDE998E2C03966700C11BAA /* StatisticsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DCDE99922C03966700C11BAA /* FruttyTreats */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE99782C03966700C11BAA /* App */,
+				DCDE997E2C03966700C11BAA /* Models */,
+				DCDE99802C03966700C11BAA /* Preview Content */,
+				DCDE99842C03966700C11BAA /* Project files */,
+				DCDE998F2C03966700C11BAA /* Screens */,
+				DCDE99902C03966700C11BAA /* DogHouses.entitlements */,
+				DCDE99912C03966700C11BAA /* Info.plist */,
+			);
+			path = FruttyTreats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8054102BE815A100046255 /* FruttyTreats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD80541F2BE815A200046255 /* Build configuration list for PBXNativeTarget "FruttyTreats" */;
+			buildPhases = (
+				AD80540D2BE815A100046255 /* Sources */,
+				AD80540E2BE815A100046255 /* Frameworks */,
+				AD80540F2BE815A100046255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruttyTreats;
+			packageProductDependencies = (
+				AD8054232BE81CCF00046255 /* FirebaseAnalytics */,
+				AD8054252BE81CCF00046255 /* FirebaseCrashlytics */,
+				AD8054272BE81CCF00046255 /* FirebaseMessaging */,
+				AD8054292BE81CCF00046255 /* FirebaseRemoteConfig */,
+			);
+			productName = DogHouses;
+			productReference = AD8054112BE815A100046255 /* FruttyTreats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8054092BE815A100046255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AD8054102BE815A100046255 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AD80540C2BE815A100046255 /* Build configuration list for PBXProject "FruttyTreats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8054082BE815A100046255;
+			packageReferences = (
+				AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AD8054122BE815A100046255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8054102BE815A100046255 /* FruttyTreats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD80540F2BE815A100046255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE99A72C03966700C11BAA /* Info.plist in Resources */,
+				DCDE999A2C03966700C11BAA /* Preview Assets.xcassets in Resources */,
+				DCDE999B2C03966700C11BAA /* Assets.xcassets in Resources */,
+				DCDE999D2C03966700C11BAA /* PrivacyInfo.xcprivacy in Resources */,
+				DCDE999C2C03966700C11BAA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD80540D2BE815A100046255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE999F2C03966700C11BAA /* GameModel.swift in Sources */,
+				DCDE99952C03966700C11BAA /* AppDelegate+NCDelegate.swift in Sources */,
+				DCDE99982C03966700C11BAA /* ConfigKeys.swift in Sources */,
+				DCDE99942C03966700C11BAA /* AppDelegate+FCM.swift in Sources */,
+				DCDE99A22C03966700C11BAA /* AdditionalView.swift in Sources */,
+				DCDE99A52C03966700C11BAA /* SplashView.swift in Sources */,
+				DCDE999E2C03966700C11BAA /* Animation.swift in Sources */,
+				DCDE99992C03966700C11BAA /* UserDefaultKeys.swift in Sources */,
+				DCDE99962C03966700C11BAA /* DogHousesApp.swift in Sources */,
+				DCDE99A12C03966700C11BAA /* PreferenceKey.swift in Sources */,
+				DCDE99A62C03966700C11BAA /* StatisticsView.swift in Sources */,
+				DCDE99972C03966700C11BAA /* Config.swift in Sources */,
+				DCDE99A32C03966700C11BAA /* MainView.swift in Sources */,
+				DCDE99932C03966700C11BAA /* AppDelegate.swift in Sources */,
+				DCDE99A42C03966700C11BAA /* SiteView.swift in Sources */,
+				DCDE99A02C03966700C11BAA /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD80541D2BE815A200046255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD80541E2BE815A200046255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8054202BE815A200046255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogHouses/DogHouses.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogHouses/Preview Content\"";
+				DEVELOPMENT_TEAM = G3332Q8MVD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogHouses/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DogHouses;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = drenroyt.BogHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD8054212BE815A200046255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogHouses/DogHouses.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogHouses/Preview Content\"";
+				DEVELOPMENT_TEAM = G3332Q8MVD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogHouses/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DogHouses;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = drenroyt.BogHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD80540C2BE815A100046255 /* Build configuration list for PBXProject "FruttyTreats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD80541D2BE815A200046255 /* Debug */,
+				AD80541E2BE815A200046255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD80541F2BE815A200046255 /* Build configuration list for PBXNativeTarget "FruttyTreats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8054202BE815A200046255 /* Debug */,
+				AD8054212BE815A200046255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD8054232BE81CCF00046255 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AD8054252BE81CCF00046255 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		AD8054272BE81CCF00046255 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		AD8054292BE81CCF00046255 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD8054222BE81CCF00046255 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD8054092BE815A100046255 /* Project object */;
+}
