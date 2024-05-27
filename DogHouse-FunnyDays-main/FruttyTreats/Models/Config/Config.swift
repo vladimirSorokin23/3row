@@ -22,6 +22,9 @@ final class ConfigModel: ObservableObject {
     // MARK: - Public methods
     func fetchConfig() {
         self.config = RemoteConfig.remoteConfig()
+        let settings = RemoteConfigSettings()
+        settings.minimumFetchInterval = 0
+        self.config?.configSettings = settings
         config?.fetch { [weak self] (status, error) -> Void in
             if status == .success {
                 print("DEBUG: REMOTE CONFIG FETCHED")
